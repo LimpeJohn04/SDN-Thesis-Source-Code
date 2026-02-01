@@ -1,6 +1,6 @@
 # Comparative Analysis of Security in SDN vs. Traditional Networks
 
-This repository contains the source code and experimental data for my Master's Thesis. The project evaluates the security performance of **Software-Defined Networking (SDN)** compared to traditional network architectures, with a specific focus on detection and mitigation efficiency.
+This repository contains the source code and experimental data for my Bachelor's Thesis. The project evaluates the security performance of **Software-Defined Networking (SDN)** compared to traditional network architectures, with a specific focus on detection and mitigation efficiency.
 
 ## 📌 Project Overview
 
