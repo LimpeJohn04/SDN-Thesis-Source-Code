@@ -22,11 +22,6 @@ The repository is organized by attack type to allow for isolated testing:
 ├── ARP-Spoofing/
 │   ├── SDN/                   # Ryu application for ARP spoofing detection
 │   └── Traditional/           # Scripts for traditional network baseline
-│
-├── thesis_topo.py             # Mininet topology script (Automated scenarios)
-├── plot_results.py            # Generates bandwidth graphs (Matplotlib)
-├── show_table.py              # CLI tool to view CSV results formatted
-└── requirements.txt           # Python dependencies
 ```
 
 ## ⚙️ Prerequisites
