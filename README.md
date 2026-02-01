@@ -42,3 +42,23 @@ To replicate these experiments, you need a Linux environment (Ubuntu recommended
 Install the required Python libraries using:
 ```bash
 pip install -r requirements.txt
+```
+
+## 🚀 Experimental Execution
+
+To ensure reproducibility and streamline the testing process, the repository includes multiple automated shell scripts. This script orchestrates the experimental workflow of each folder, including environment cleanup, controller initialization, traffic capturing, and topology deployment.
+
+### 1. Setup and Permissions
+First, clone the repository into your Mininet-supported Linux environment. Before running the experiment for the first time, you must grant execution permissions to the automation script:
+
+```bash
+chmod +x sdn_shell_script.sh
+```
+
+### 1. Setup and Permissions
+Execute the shell script with root privileges to start the full simulation lifecycle:
+
+```bash
+sudo ./sdn_shell_script.sh
+```
+
