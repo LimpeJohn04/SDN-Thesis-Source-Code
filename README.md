@@ -14,6 +14,7 @@ The experiments utilize **Mininet** for network emulation and the **Ryu Controll
 
 The repository is organized by attack type to allow for isolated testing:
 
+```text
 ├── DoS-Attack/
 │   ├── SDN/                   # Ryu application for DoS detection
 │   └── Traditional/           # Scripts for traditional network baseline
@@ -26,6 +27,7 @@ The repository is organized by attack type to allow for isolated testing:
 ├── plot_results.py            # Generates bandwidth graphs (Matplotlib)
 ├── show_table.py              # CLI tool to view CSV results formatted
 └── requirements.txt           # Python dependencies
+```
 
 ## ⚙️ Prerequisites
 
