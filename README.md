@@ -62,16 +62,11 @@ Execute the shell script with root privileges to start the full simulation lifec
 sudo ./sdn_shell_script.sh
 ```
 
-##📋 Automated Workflow
+### 📋 Automated Workflow
 Upon execution, the shell script automatically performs the following sequence of operations:
 
-### 1. Environment Sanitization: Executes sudo mn -c to clear stale Mininet states and removes previous log artifacts (e.g., old .pcap or .csv files) to guarantee a pristine testing environment.
-
-### 2. Controller Initialization: Launches the required Ryu SDN application (IDS/IPS module) in a dedicated process to monitor network events.
-
-### 3.Traffic Acquisition: Initiates tcpdump in the background to capture network traffic for subsequent forensic analysis.
-
-### 4. Simulation Orchestration: Executes thesis_topo.py to build the network topology, generate benign user traffic, and automatically trigger the specific attack vectors.
-
-### 5. Teardown & Analysis: Gracefully terminates all background processes upon completion and immediately aggregates and displays the detection/mitigation results table.
-
+1.  **Environment Sanitization:** Executes `sudo mn -c` to clear stale Mininet states and removes previous log artifacts (e.g., old `.pcap` or `.csv` files) to guarantee a pristine testing environment.
+2.  **Controller Initialization:** Launches the required Ryu SDN application (IDS/IPS module) in a dedicated process to monitor network events.
+3.  **Traffic Acquisition:** Initiates `tcpdump` in the background to capture network traffic for subsequent forensic analysis.
+4.  **Simulation Orchestration:** Executes `thesis_topo.py` to build the network topology, generate benign user traffic, and automatically trigger the specific attack vectors.
+5.  **Teardown & Analysis:** Gracefully terminates all background processes upon completion and immediately aggregates and displays the detection/mitigation results table.
