@@ -1,6 +1,6 @@
 # Comparative Analysis of Security in SDN vs. Traditional Networks
 
-This repository contains the source code and experimental data for my Bachelor's Thesis. The project evaluates the security performance of **Software-Defined Networking (SDN)** compared to traditional network architectures, with a specific focus on detection and mitigation efficiency.
+This repository contains the source code and experimental data for my Master's Thesis. The project evaluates the security performance of **Software-Defined Networking (SDN)** compared to traditional network architectures, with a specific focus on detection and mitigation efficiency.
 
 ## 📌 Project Overview
 
@@ -14,7 +14,6 @@ The experiments utilize **Mininet** for network emulation and the **Ryu Controll
 
 The repository is organized by attack type to allow for isolated testing:
 
-```text
 ├── DoS-Attack/
 │   ├── SDN/                   # Ryu application for DoS detection
 │   └── Traditional/           # Scripts for traditional network baseline
